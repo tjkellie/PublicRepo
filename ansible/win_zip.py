@@ -25,11 +25,11 @@ requirements:
 options:
   src:
     description:
-      - File to be unzipped (provide absolute path).
+      - File to be zipped (provide absolute path).
     required: true
   dest:
     description:
-      - Destination of zip file (provide absolute path of directory). If it does not exist, the directory will be created.
+      - Destination of zip file (provide absolute path and extension). 
     required: true
   creates:
     description:
